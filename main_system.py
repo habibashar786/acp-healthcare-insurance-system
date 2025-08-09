@@ -1,7 +1,7 @@
 """
 ACP Healthcare Insurance System - Main FastAPI Application
 Production-ready API for healthcare insurance management
-Revised and fixed version for Windows compatibility
+Final revised version with all fixes applied
 """
 
 from fastapi import FastAPI, HTTPException, Depends, status, BackgroundTasks, Request
@@ -29,16 +29,18 @@ if sys.platform == "win32":
     try:
         locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
     except locale.Error:
-        locale.setlocale(locale.LC_ALL, 'C.UTF-8')
+        try:
+            locale.setlocale(locale.LC_ALL, 'C.UTF-8')
+        except locale.Error:
+            pass  # Use default locale
 
 # Load environment variables
 load_dotenv()
 
-# Configure logging without emojis for Windows compatibility
+# Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    encoding='utf-8' if sys.platform == "win32" else None
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
 
@@ -53,7 +55,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 # Security configuration
-SECRET_KEY = os.getenv("SECRET_KEY", "your-secret-key-here-change-in-production")
+SECRET_KEY = os.getenv("SECRET_KEY", "acp-healthcare-super-secure-secret-key-change-in-production-2024")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
@@ -102,8 +104,9 @@ class User(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
+    # Relationships - Fixed to avoid ambiguity
     policies = relationship("Policy", back_populates="user")
-    claims = relationship("Claim", back_populates="user")
+    claims = relationship("Claim", back_populates="user", foreign_keys="[Claim.user_id]")
     payments = relationship("Payment", back_populates="user")
 
 class InsurancePlan(Base):
@@ -169,6 +172,7 @@ class Claim(Base):
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     
+    # Fixed relationships to avoid foreign key ambiguity
     user = relationship("User", back_populates="claims", foreign_keys=[user_id])
     policy = relationship("Policy", back_populates="claims")
 
@@ -392,31 +396,39 @@ def generate_payment_reference():
 async def lifespan(app: FastAPI):
     # Startup
     logger.info("Starting ACP Healthcare Insurance System...")
-    Base.metadata.create_all(bind=engine)
-    logger.info("Database tables created/verified successfully")
-    
-    # Create default admin user if not exists
-    db = SessionLocal()
     try:
-        admin = db.query(User).filter(User.username == "admin").first()
-        if not admin:
-            admin_user = User(
-                email="admin@acp-health.com",
-                username="admin",
-                hashed_password=get_password_hash("Admin@123456"),
-                full_name="System Administrator",
-                role=UserRole.ADMIN,
-                is_active=True
-            )
-            db.add(admin_user)
-            db.commit()
-            logger.info("Default admin user created")
+        Base.metadata.create_all(bind=engine)
+        logger.info("Database tables created/verified successfully")
+        
+        # Create default admin user if not exists
+        db = SessionLocal()
+        try:
+            admin = db.query(User).filter(User.username == "admin").first()
+            if not admin:
+                admin_user = User(
+                    email="admin@acp-health.com",
+                    username="admin",
+                    hashed_password=get_password_hash("Admin@123456"),
+                    full_name="System Administrator",
+                    role=UserRole.ADMIN,
+                    is_active=True
+                )
+                db.add(admin_user)
+                db.commit()
+                logger.info("Default admin user created")
+            else:
+                logger.info("Default admin user already exists")
+        except Exception as e:
+            logger.error(f"Error creating default admin: {e}")
+            db.rollback()
+        finally:
+            db.close()
+        
+        logger.info("System ready to accept requests")
+        
     except Exception as e:
-        logger.error(f"Error creating default admin: {e}")
-    finally:
-        db.close()
-    
-    logger.info("System ready to accept requests")
+        logger.error(f"Startup error: {e}")
+        raise
     
     yield
     
@@ -938,7 +950,7 @@ async def general_exception_handler(request: Request, exc: Exception):
 
 if __name__ == "__main__":
     # Get port from environment or use default
-    port = int(os.getenv("PORT", 8001))  # Changed default port to 8001
+    port = int(os.getenv("PORT", 8001))
     
     logger.info(f"Starting Production ACP Healthcare Insurance System on port {port}")
     logger.info(f"System accessible at http://localhost:{port}")

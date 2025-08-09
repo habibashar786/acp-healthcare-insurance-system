@@ -1,0 +1,206 @@
+{
+  "metadata": {
+    "source": "Centers for Medicare & Medicaid Services",
+    "dataset": "Physician Fee Schedule",
+    "year": 2024,
+    "last_updated": "2025-08-09T17:16:54.579822"
+  },
+  "procedure_codes": {
+    "99201": {
+      "description": "Office/outpatient visit new patient",
+      "category": "E&M",
+      "work_rvu": 0.93,
+      "pe_rvu": 1.21,
+      "mp_rvu": 0.07
+    },
+    "99202": {
+      "description": "Office/outpatient visit new patient",
+      "category": "E&M",
+      "work_rvu": 1.56,
+      "pe_rvu": 1.46,
+      "mp_rvu": 0.1
+    },
+    "99203": {
+      "description": "Office/outpatient visit new patient",
+      "category": "E&M",
+      "work_rvu": 2.17,
+      "pe_rvu": 1.66,
+      "mp_rvu": 0.14
+    },
+    "99211": {
+      "description": "Office/outpatient visit established patient",
+      "category": "E&M",
+      "work_rvu": 0.18,
+      "pe_rvu": 0.6,
+      "mp_rvu": 0.02
+    },
+    "99212": {
+      "description": "Office/outpatient visit established patient",
+      "category": "E&M",
+      "work_rvu": 0.7,
+      "pe_rvu": 0.85,
+      "mp_rvu": 0.05
+    },
+    "99213": {
+      "description": "Office/outpatient visit established patient",
+      "category": "E&M",
+      "work_rvu": 1.0,
+      "pe_rvu": 1.05,
+      "mp_rvu": 0.07
+    },
+    "99214": {
+      "description": "Office/outpatient visit established patient",
+      "category": "E&M",
+      "work_rvu": 1.5,
+      "pe_rvu": 1.28,
+      "mp_rvu": 0.1
+    },
+    "99215": {
+      "description": "Office/outpatient visit established patient",
+      "category": "E&M",
+      "work_rvu": 2.06,
+      "pe_rvu": 1.51,
+      "mp_rvu": 0.14
+    },
+    "80053": {
+      "description": "Comprehensive metabolic panel",
+      "category": "Laboratory",
+      "work_rvu": 0.0,
+      "pe_rvu": 7.68,
+      "mp_rvu": 0.03
+    },
+    "80061": {
+      "description": "Lipid panel",
+      "category": "Laboratory",
+      "work_rvu": 0.0,
+      "pe_rvu": 6.42,
+      "mp_rvu": 0.03
+    },
+    "85025": {
+      "description": "Blood count; complete (CBC), automated",
+      "category": "Laboratory",
+      "work_rvu": 0.0,
+      "pe_rvu": 3.85,
+      "mp_rvu": 0.02
+    },
+    "83036": {
+      "description": "Hemoglobin; glycosylated (A1C)",
+      "category": "Laboratory",
+      "work_rvu": 0.0,
+      "pe_rvu": 8.33,
+      "mp_rvu": 0.03
+    },
+    "71020": {
+      "description": "Radiologic examination, chest; 2 views",
+      "category": "Radiology",
+      "work_rvu": 0.22,
+      "pe_rvu": 0.52,
+      "mp_rvu": 0.01
+    },
+    "71250": {
+      "description": "Computed tomography, thorax; without contrast",
+      "category": "Radiology",
+      "work_rvu": 0.44,
+      "pe_rvu": 7.16,
+      "mp_rvu": 0.12
+    },
+    "72148": {
+      "description": "MRI, spinal canal and contents, lumbar; without contrast",
+      "category": "Radiology",
+      "work_rvu": 0.5,
+      "pe_rvu": 11.89,
+      "mp_rvu": 0.17
+    },
+    "73721": {
+      "description": "MRI, any joint of lower extremity; without contrast",
+      "category": "Radiology",
+      "work_rvu": 0.5,
+      "pe_rvu": 11.89,
+      "mp_rvu": 0.17
+    },
+    "29881": {
+      "description": "Arthroscopy, knee, surgical; with meniscectomy",
+      "category": "Surgery",
+      "work_rvu": 4.5,
+      "pe_rvu": 3.6,
+      "mp_rvu": 0.45
+    },
+    "64721": {
+      "description": "Neuroplasty and/or transposition; median nerve at carpal tunnel",
+      "category": "Surgery",
+      "work_rvu": 3.21,
+      "pe_rvu": 2.67,
+      "mp_rvu": 0.32
+    },
+    "47562": {
+      "description": "Laparoscopy, surgical; cholecystectomy",
+      "category": "Surgery",
+      "work_rvu": 7.33,
+      "pe_rvu": 4.22,
+      "mp_rvu": 0.73
+    },
+    "99281": {
+      "description": "Emergency department visit for the evaluation and management of a patient",
+      "category": "Emergency",
+      "work_rvu": 0.93,
+      "pe_rvu": 2.56,
+      "mp_rvu": 0.14
+    },
+    "99282": {
+      "description": "Emergency department visit for the evaluation and management of a patient",
+      "category": "Emergency",
+      "work_rvu": 1.28,
+      "pe_rvu": 3.15,
+      "mp_rvu": 0.18
+    },
+    "99283": {
+      "description": "Emergency department visit for the evaluation and management of a patient",
+      "category": "Emergency",
+      "work_rvu": 1.76,
+      "pe_rvu": 3.89,
+      "mp_rvu": 0.25
+    },
+    "90834": {
+      "description": "Psychotherapy, 45 minutes with patient",
+      "category": "Mental Health",
+      "work_rvu": 1.22,
+      "pe_rvu": 0.34,
+      "mp_rvu": 0.07
+    },
+    "90837": {
+      "description": "Psychotherapy, 60 minutes with patient",
+      "category": "Mental Health",
+      "work_rvu": 1.66,
+      "pe_rvu": 0.46,
+      "mp_rvu": 0.09
+    },
+    "90791": {
+      "description": "Psychiatric diagnostic evaluation",
+      "category": "Mental Health",
+      "work_rvu": 1.6,
+      "pe_rvu": 0.61,
+      "mp_rvu": 0.09
+    },
+    "G0439": {
+      "description": "Annual wellness visit; includes a personalized prevention plan",
+      "category": "Preventive",
+      "work_rvu": 1.28,
+      "pe_rvu": 0.68,
+      "mp_rvu": 0.09
+    },
+    "99401": {
+      "description": "Preventive medicine counseling and/or risk factor reduction",
+      "category": "Preventive",
+      "work_rvu": 0.48,
+      "pe_rvu": 0.73,
+      "mp_rvu": 0.03
+    },
+    "99395": {
+      "description": "Periodic comprehensive preventive medicine reevaluation and management",
+      "category": "Preventive",
+      "work_rvu": 1.5,
+      "pe_rvu": 1.12,
+      "mp_rvu": 0.1
+    }
+  }
+}

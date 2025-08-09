@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "source": "Centers for Medicare & Medicaid Services",
+    "fee_schedule": "Physician Fee Schedule",
+    "year": 2024,
+    "conversion_factor": 32.74,
+    "effective_date": "2024-01-01"
+  },
+  "geographic_practice_cost_indices": {
+    "MA_BOSTON": {
+      "locality": "01",
+      "work_gpci": 1.052,
+      "pe_gpci": 1.18,
+      "mp_gpci": 0.739
+    },
+    "IL_CHICAGO": {
+      "locality": "16",
+      "work_gpci": 1.004,
+      "pe_gpci": 1.025,
+      "mp_gpci": 1.208
+    },
+    "CA_LOS_ANGELES": {
+      "locality": "05",
+      "work_gpci": 1.068,
+      "pe_gpci": 1.34,
+      "mp_gpci": 0.557
+    },
+    "WA_SEATTLE": {
+      "locality": "23",
+      "work_gpci": 1.032,
+      "pe_gpci": 1.187,
+      "mp_gpci": 0.734
+    },
+    "FL_MIAMI": {
+      "locality": "09",
+      "work_gpci": 1.0,
+      "pe_gpci": 1.067,
+      "mp_gpci": 1.713
+    },
+    "NATIONAL_AVERAGE": {
+      "locality": "00",
+      "work_gpci": 1.0,
+      "pe_gpci": 1.0,
+      "mp_gpci": 1.0
+    }
+  },
+  "facility_rates": {
+    "99213": {
+      "non_facility": 119.43,
+      "facility": 75.82
+    },
+    "80053": {
+      "non_facility": 251.47,
+      "facility": 251.47
+    },
+    "71020": {
+      "non_facility": 24.56,
+      "facility": 24.56
+    },
+    "73721": {
+      "non_facility": 406.95,
+      "facility": 225.82
+    },
+    "29881": {
+      "non_facility": 274.65,
+      "facility": 274.65
+    },
+    "99281": {
+      "non_facility": 115.2,
+      "facility": 115.2
+    },
+    "90834": {
+      "non_facility": 53.19,
+      "facility": 53.19
+    },
+    "G0439": {
+      "non_facility": 66.89,
+      "facility": 64.17
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "source": "National Provider Network Database",
+    "providers_count": 20,
+    "specialties": 10,
+    "last_updated": "2025-08-09T17:16:54.584314"
+  },
+  "providers": {
+    "NPI0000001": {
+      "npi": "NPI0000001",
+      "name": "Dr. Provider 1",
+      "specialty": "Family Medicine",
+      "address": {
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002"
+      ]
+    },
+    "NPI0000002": {
+      "npi": "NPI0000002",
+      "name": "Dr. Provider 2",
+      "specialty": "Cardiology",
+      "address": {
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003"
+      ]
+    },
+    "NPI0000003": {
+      "npi": "NPI0000003",
+      "name": "Dr. Provider 3",
+      "specialty": "Dermatology",
+      "address": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "accepting_new_patients": true,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004"
+      ]
+    },
+    "NPI0000004": {
+      "npi": "NPI0000004",
+      "name": "Dr. Provider 4",
+      "specialty": "Orthopedic Surgery",
+      "address": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004",
+        "MEDICAID_005"
+      ]
+    },
+    "NPI0000005": {
+      "npi": "NPI0000005",
+      "name": "Dr. Provider 5",
+      "specialty": "Pediatrics",
+      "address": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001"
+      ]
+    },
+    "NPI0000006": {
+      "npi": "NPI0000006",
+      "name": "Dr. Provider 6",
+      "specialty": "Psychiatry",
+      "address": {
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "accepting_new_patients": true,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002"
+      ]
+    },
+    "NPI0000007": {
+      "npi": "NPI0000007",
+      "name": "Dr. Provider 7",
+      "specialty": "Radiology",
+      "address": {
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003"
+      ]
+    },
+    "NPI0000008": {
+      "npi": "NPI0000008",
+      "name": "Dr. Provider 8",
+      "specialty": "Emergency Medicine",
+      "address": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004"
+      ]
+    },
+    "NPI0000009": {
+      "npi": "NPI0000009",
+      "name": "Dr. Provider 9",
+      "specialty": "Anesthesiology",
+      "address": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "accepting_new_patients": true,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004",
+        "MEDICAID_005"
+      ]
+    },
+    "NPI0000010": {
+      "npi": "NPI0000010",
+      "name": "Dr. Provider 10",
+      "specialty": "Internal Medicine",
+      "address": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001"
+      ]
+    },
+    "NPI0000011": {
+      "npi": "NPI0000011",
+      "name": "Dr. Provider 11",
+      "specialty": "Family Medicine",
+      "address": {
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002"
+      ]
+    },
+    "NPI0000012": {
+      "npi": "NPI0000012",
+      "name": "Dr. Provider 12",
+      "specialty": "Cardiology",
+      "address": {
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      "accepting_new_patients": true,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003"
+      ]
+    },
+    "NPI0000013": {
+      "npi": "NPI0000013",
+      "name": "Dr. Provider 13",
+      "specialty": "Dermatology",
+      "address": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004"
+      ]
+    },
+    "NPI0000014": {
+      "npi": "NPI0000014",
+      "name": "Dr. Provider 14",
+      "specialty": "Orthopedic Surgery",
+      "address": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004",
+        "MEDICAID_005"
+      ]
+    },
+    "NPI0000015": {
+      "npi": "NPI0000015",
+      "name": "Dr. Provider 15",
+      "specialty": "Pediatrics",
+      "address": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "accepting_new_patients": true,
+      "network_participation": [
+        "BCBS_MA_001"
+      ]
+    },
+    "NPI0000016": {
+      "npi": "NPI0000016",
+      "name": "Dr. Provider 16",
+      "specialty": "Psychiatry",
+      "address": {
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002"
+      ]
+    },
+    "NPI0000017": {
+      "npi": "NPI0000017",
+      "name": "Dr. Provider 17",
+      "specialty": "Radiology",
+      "address": {
+        "city": "Los Angeles",
+        "state": "CA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003"
+      ]
+    },
+    "NPI0000018": {
+      "npi": "NPI0000018",
+      "name": "Dr. Provider 18",
+      "specialty": "Emergency Medicine",
+      "address": {
+        "city": "Seattle",
+        "state": "WA"
+      },
+      "accepting_new_patients": true,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004"
+      ]
+    },
+    "NPI0000019": {
+      "npi": "NPI0000019",
+      "name": "Dr. Provider 19",
+      "specialty": "Anesthesiology",
+      "address": {
+        "city": "Miami",
+        "state": "FL"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001",
+        "AETNA_IL_002",
+        "KAISER_CA_003",
+        "MEDICARE_A_004",
+        "MEDICAID_005"
+      ]
+    },
+    "NPI0000020": {
+      "npi": "NPI0000020",
+      "name": "Dr. Provider 20",
+      "specialty": "Internal Medicine",
+      "address": {
+        "city": "Boston",
+        "state": "MA"
+      },
+      "accepting_new_patients": false,
+      "network_participation": [
+        "BCBS_MA_001"
+      ]
+    }
+  }
+}

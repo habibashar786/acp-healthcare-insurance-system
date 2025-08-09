@@ -1,0 +1,1811 @@
+{
+  "metadata": {
+    "source": "Synthea Synthetic Health Data",
+    "version": "2.7.0",
+    "generated": "2025-08-09T17:16:54.576354",
+    "total_patients": 50,
+    "fhir_version": "R4"
+  },
+  "patients": [
+    {
+      "id": "PT000001",
+      "mrn": "MRN-2024-001",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient1",
+        "last_name": "Synthetic1",
+        "dob": "1951-02-02",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "101 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10001"
+        },
+        "phone": "+1-101-555-1001",
+        "email": "patient1@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000001",
+          "group_number": "GRP002",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-08-08T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000002",
+      "mrn": "MRN-2024-002",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient2",
+        "last_name": "Synthetic2",
+        "dob": "1952-03-03",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "102 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10002"
+        },
+        "phone": "+1-102-555-1002",
+        "email": "patient2@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000002",
+          "group_number": "GRP003",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-08-07T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000003",
+      "mrn": "MRN-2024-003",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient3",
+        "last_name": "Synthetic3",
+        "dob": "1953-04-04",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "103 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10003"
+        },
+        "phone": "+1-103-555-1003",
+        "email": "patient3@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000003",
+          "group_number": "GRP004",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-08-06T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000004",
+      "mrn": "MRN-2024-004",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient4",
+        "last_name": "Synthetic4",
+        "dob": "1954-05-05",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "104 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10004"
+        },
+        "phone": "+1-104-555-1004",
+        "email": "patient4@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000004",
+          "group_number": "GRP005",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-08-05T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000005",
+      "mrn": "MRN-2024-005",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient5",
+        "last_name": "Synthetic5",
+        "dob": "1955-06-06",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "105 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10005"
+        },
+        "phone": "+1-105-555-1005",
+        "email": "patient5@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000005",
+          "group_number": "GRP006",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-08-04T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000006",
+      "mrn": "MRN-2024-006",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient6",
+        "last_name": "Synthetic6",
+        "dob": "1956-07-07",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "106 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10006"
+        },
+        "phone": "+1-106-555-1006",
+        "email": "patient6@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000006",
+          "group_number": "GRP007",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-08-03T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000007",
+      "mrn": "MRN-2024-007",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient7",
+        "last_name": "Synthetic7",
+        "dob": "1957-08-08",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "107 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10007"
+        },
+        "phone": "+1-107-555-1007",
+        "email": "patient7@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000007",
+          "group_number": "GRP008",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-08-02T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000008",
+      "mrn": "MRN-2024-008",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient8",
+        "last_name": "Synthetic8",
+        "dob": "1958-09-09",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "108 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10008"
+        },
+        "phone": "+1-108-555-1008",
+        "email": "patient8@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000008",
+          "group_number": "GRP009",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-08-01T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000009",
+      "mrn": "MRN-2024-009",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient9",
+        "last_name": "Synthetic9",
+        "dob": "1959-10-10",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "109 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10009"
+        },
+        "phone": "+1-109-555-1009",
+        "email": "patient9@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000009",
+          "group_number": "GRP010",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-31T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000010",
+      "mrn": "MRN-2024-010",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient10",
+        "last_name": "Synthetic10",
+        "dob": "1960-11-11",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "110 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10010"
+        },
+        "phone": "+1-110-555-1010",
+        "email": "patient10@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000010",
+          "group_number": "GRP011",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-30T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000011",
+      "mrn": "MRN-2024-011",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient11",
+        "last_name": "Synthetic11",
+        "dob": "1961-12-12",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "111 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10011"
+        },
+        "phone": "+1-111-555-1011",
+        "email": "patient11@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000011",
+          "group_number": "GRP012",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-29T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000012",
+      "mrn": "MRN-2024-012",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient12",
+        "last_name": "Synthetic12",
+        "dob": "1962-01-13",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "112 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10012"
+        },
+        "phone": "+1-112-555-1012",
+        "email": "patient12@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000012",
+          "group_number": "GRP013",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-07-28T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000013",
+      "mrn": "MRN-2024-013",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient13",
+        "last_name": "Synthetic13",
+        "dob": "1963-02-14",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "113 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10013"
+        },
+        "phone": "+1-113-555-1013",
+        "email": "patient13@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000013",
+          "group_number": "GRP014",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-27T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000014",
+      "mrn": "MRN-2024-014",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient14",
+        "last_name": "Synthetic14",
+        "dob": "1964-03-15",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "114 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10014"
+        },
+        "phone": "+1-114-555-1014",
+        "email": "patient14@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000014",
+          "group_number": "GRP015",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-26T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000015",
+      "mrn": "MRN-2024-015",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient15",
+        "last_name": "Synthetic15",
+        "dob": "1965-04-16",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "115 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10015"
+        },
+        "phone": "+1-115-555-1015",
+        "email": "patient15@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000015",
+          "group_number": "GRP016",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-25T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000016",
+      "mrn": "MRN-2024-016",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient16",
+        "last_name": "Synthetic16",
+        "dob": "1966-05-17",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "116 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10016"
+        },
+        "phone": "+1-116-555-1016",
+        "email": "patient16@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000016",
+          "group_number": "GRP017",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-07-24T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000017",
+      "mrn": "MRN-2024-017",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient17",
+        "last_name": "Synthetic17",
+        "dob": "1967-06-18",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "117 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10017"
+        },
+        "phone": "+1-117-555-1017",
+        "email": "patient17@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000017",
+          "group_number": "GRP018",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-23T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000018",
+      "mrn": "MRN-2024-018",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient18",
+        "last_name": "Synthetic18",
+        "dob": "1968-07-19",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "118 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10018"
+        },
+        "phone": "+1-118-555-1018",
+        "email": "patient18@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000018",
+          "group_number": "GRP019",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-22T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000019",
+      "mrn": "MRN-2024-019",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient19",
+        "last_name": "Synthetic19",
+        "dob": "1969-08-20",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "119 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10019"
+        },
+        "phone": "+1-119-555-1019",
+        "email": "patient19@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000019",
+          "group_number": "GRP020",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-21T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000020",
+      "mrn": "MRN-2024-020",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient20",
+        "last_name": "Synthetic20",
+        "dob": "1970-09-21",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "120 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10020"
+        },
+        "phone": "+1-120-555-1020",
+        "email": "patient20@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000020",
+          "group_number": "GRP021",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-07-20T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000021",
+      "mrn": "MRN-2024-021",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient21",
+        "last_name": "Synthetic21",
+        "dob": "1971-10-22",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "121 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10021"
+        },
+        "phone": "+1-121-555-1021",
+        "email": "patient21@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000021",
+          "group_number": "GRP022",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-19T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000022",
+      "mrn": "MRN-2024-022",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient22",
+        "last_name": "Synthetic22",
+        "dob": "1972-11-23",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "122 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10022"
+        },
+        "phone": "+1-122-555-1022",
+        "email": "patient22@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000022",
+          "group_number": "GRP023",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-18T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000023",
+      "mrn": "MRN-2024-023",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient23",
+        "last_name": "Synthetic23",
+        "dob": "1973-12-24",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "123 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10023"
+        },
+        "phone": "+1-123-555-1023",
+        "email": "patient23@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000023",
+          "group_number": "GRP024",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-17T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000024",
+      "mrn": "MRN-2024-024",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient24",
+        "last_name": "Synthetic24",
+        "dob": "1974-01-25",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "124 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10024"
+        },
+        "phone": "+1-124-555-1024",
+        "email": "patient24@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000024",
+          "group_number": "GRP025",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-07-16T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000025",
+      "mrn": "MRN-2024-025",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient25",
+        "last_name": "Synthetic25",
+        "dob": "1975-02-26",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "125 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10025"
+        },
+        "phone": "+1-125-555-1025",
+        "email": "patient25@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000025",
+          "group_number": "GRP026",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-15T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000026",
+      "mrn": "MRN-2024-026",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient26",
+        "last_name": "Synthetic26",
+        "dob": "1976-03-27",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "126 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10026"
+        },
+        "phone": "+1-126-555-1026",
+        "email": "patient26@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000026",
+          "group_number": "GRP027",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-14T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000027",
+      "mrn": "MRN-2024-027",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient27",
+        "last_name": "Synthetic27",
+        "dob": "1977-04-28",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "127 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10027"
+        },
+        "phone": "+1-127-555-1027",
+        "email": "patient27@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000027",
+          "group_number": "GRP028",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-13T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000028",
+      "mrn": "MRN-2024-028",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient28",
+        "last_name": "Synthetic28",
+        "dob": "1978-05-01",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "128 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10028"
+        },
+        "phone": "+1-128-555-1028",
+        "email": "patient28@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000028",
+          "group_number": "GRP029",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-07-12T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000029",
+      "mrn": "MRN-2024-029",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient29",
+        "last_name": "Synthetic29",
+        "dob": "1979-06-02",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "129 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10029"
+        },
+        "phone": "+1-129-555-1029",
+        "email": "patient29@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000029",
+          "group_number": "GRP030",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-11T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000030",
+      "mrn": "MRN-2024-030",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient30",
+        "last_name": "Synthetic30",
+        "dob": "1980-07-03",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "130 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10030"
+        },
+        "phone": "+1-130-555-1030",
+        "email": "patient30@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000030",
+          "group_number": "GRP031",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-10T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000031",
+      "mrn": "MRN-2024-031",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient31",
+        "last_name": "Synthetic31",
+        "dob": "1981-08-04",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "131 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10031"
+        },
+        "phone": "+1-131-555-1031",
+        "email": "patient31@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000031",
+          "group_number": "GRP032",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-09T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000032",
+      "mrn": "MRN-2024-032",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient32",
+        "last_name": "Synthetic32",
+        "dob": "1982-09-05",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "132 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10032"
+        },
+        "phone": "+1-132-555-1032",
+        "email": "patient32@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000032",
+          "group_number": "GRP033",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-07-08T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000033",
+      "mrn": "MRN-2024-033",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient33",
+        "last_name": "Synthetic33",
+        "dob": "1983-10-06",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "133 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10033"
+        },
+        "phone": "+1-133-555-1033",
+        "email": "patient33@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000033",
+          "group_number": "GRP034",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-07T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000034",
+      "mrn": "MRN-2024-034",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient34",
+        "last_name": "Synthetic34",
+        "dob": "1984-11-07",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "134 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10034"
+        },
+        "phone": "+1-134-555-1034",
+        "email": "patient34@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000034",
+          "group_number": "GRP035",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-06T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000035",
+      "mrn": "MRN-2024-035",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient35",
+        "last_name": "Synthetic35",
+        "dob": "1985-12-08",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "135 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10035"
+        },
+        "phone": "+1-135-555-1035",
+        "email": "patient35@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000035",
+          "group_number": "GRP036",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-05T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000036",
+      "mrn": "MRN-2024-036",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient36",
+        "last_name": "Synthetic36",
+        "dob": "1986-01-09",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "136 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10036"
+        },
+        "phone": "+1-136-555-1036",
+        "email": "patient36@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000036",
+          "group_number": "GRP037",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-07-04T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000037",
+      "mrn": "MRN-2024-037",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient37",
+        "last_name": "Synthetic37",
+        "dob": "1987-02-10",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "137 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10037"
+        },
+        "phone": "+1-137-555-1037",
+        "email": "patient37@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000037",
+          "group_number": "GRP038",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-07-03T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000038",
+      "mrn": "MRN-2024-038",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient38",
+        "last_name": "Synthetic38",
+        "dob": "1988-03-11",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "138 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10038"
+        },
+        "phone": "+1-138-555-1038",
+        "email": "patient38@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000038",
+          "group_number": "GRP039",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-07-02T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000039",
+      "mrn": "MRN-2024-039",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient39",
+        "last_name": "Synthetic39",
+        "dob": "1989-04-12",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "139 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10039"
+        },
+        "phone": "+1-139-555-1039",
+        "email": "patient39@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000039",
+          "group_number": "GRP040",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-07-01T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000040",
+      "mrn": "MRN-2024-040",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient40",
+        "last_name": "Synthetic40",
+        "dob": "1990-05-13",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "140 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10040"
+        },
+        "phone": "+1-140-555-1040",
+        "email": "patient40@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000040",
+          "group_number": "GRP041",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-06-30T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000041",
+      "mrn": "MRN-2024-041",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient41",
+        "last_name": "Synthetic41",
+        "dob": "1991-06-14",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "141 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10041"
+        },
+        "phone": "+1-141-555-1041",
+        "email": "patient41@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000041",
+          "group_number": "GRP042",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-06-29T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000042",
+      "mrn": "MRN-2024-042",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient42",
+        "last_name": "Synthetic42",
+        "dob": "1992-07-15",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "142 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10042"
+        },
+        "phone": "+1-142-555-1042",
+        "email": "patient42@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000042",
+          "group_number": "GRP043",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-06-28T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000043",
+      "mrn": "MRN-2024-043",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient43",
+        "last_name": "Synthetic43",
+        "dob": "1993-08-16",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "143 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10043"
+        },
+        "phone": "+1-143-555-1043",
+        "email": "patient43@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000043",
+          "group_number": "GRP044",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-06-27T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000044",
+      "mrn": "MRN-2024-044",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient44",
+        "last_name": "Synthetic44",
+        "dob": "1994-09-17",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "144 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10044"
+        },
+        "phone": "+1-144-555-1044",
+        "email": "patient44@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000044",
+          "group_number": "GRP045",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-06-26T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000045",
+      "mrn": "MRN-2024-045",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient45",
+        "last_name": "Synthetic45",
+        "dob": "1995-10-18",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "145 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10045"
+        },
+        "phone": "+1-145-555-1045",
+        "email": "patient45@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000045",
+          "group_number": "GRP046",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-06-25T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000046",
+      "mrn": "MRN-2024-046",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient46",
+        "last_name": "Synthetic46",
+        "dob": "1996-11-19",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "146 Healthcare St",
+          "city": "Chicago",
+          "state": "IL",
+          "zip": "10046"
+        },
+        "phone": "+1-146-555-1046",
+        "email": "patient46@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "AETNA_002",
+          "member_id": "MEM00000046",
+          "group_number": "GRP047",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-06-24T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000047",
+      "mrn": "MRN-2024-047",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient47",
+        "last_name": "Synthetic47",
+        "dob": "1997-12-20",
+        "gender": "male",
+        "race": "hispanic",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "147 Healthcare St",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "10047"
+        },
+        "phone": "+1-147-555-1047",
+        "email": "patient47@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "KAISER_003",
+          "member_id": "MEM00000047",
+          "group_number": "GRP048",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Nuts",
+        "medications": [],
+        "last_encounter": "2025-06-23T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000048",
+      "mrn": "MRN-2024-048",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient48",
+        "last_name": "Synthetic48",
+        "dob": "1998-01-21",
+        "gender": "female",
+        "race": "white",
+        "ethnicity": "non-hispanic",
+        "address": {
+          "street": "148 Healthcare St",
+          "city": "Seattle",
+          "state": "WA",
+          "zip": "10048"
+        },
+        "phone": "+1-148-555-1048",
+        "email": "patient48@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICARE_004",
+          "member_id": "MEM00000048",
+          "group_number": "GRP049",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "None known",
+        "medications": [],
+        "last_encounter": "2025-06-22T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000049",
+      "mrn": "MRN-2024-049",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient49",
+        "last_name": "Synthetic49",
+        "dob": "1999-02-22",
+        "gender": "male",
+        "race": "black",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "149 Healthcare St",
+          "city": "Miami",
+          "state": "FL",
+          "zip": "10049"
+        },
+        "phone": "+1-149-555-1049",
+        "email": "patient49@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "MEDICAID_005",
+          "member_id": "MEM00000049",
+          "group_number": "GRP050",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Penicillin",
+        "medications": [],
+        "last_encounter": "2025-06-21T17:16:54.576708"
+      }
+    },
+    {
+      "id": "PT000050",
+      "mrn": "MRN-2024-050",
+      "resource_type": "Patient",
+      "demographics": {
+        "first_name": "Patient50",
+        "last_name": "Synthetic50",
+        "dob": "1950-03-23",
+        "gender": "female",
+        "race": "asian",
+        "ethnicity": "hispanic",
+        "address": {
+          "street": "150 Healthcare St",
+          "city": "Boston",
+          "state": "MA",
+          "zip": "10050"
+        },
+        "phone": "+1-150-555-1050",
+        "email": "patient50@synthea.org"
+      },
+      "insurance": {
+        "primary": {
+          "plan_id": "BCBS_001",
+          "member_id": "MEM00000050",
+          "group_number": "GRP051",
+          "effective_date": "2024-01-01",
+          "termination_date": "2024-12-31"
+        }
+      },
+      "clinical": {
+        "conditions": [],
+        "allergies": "Shellfish",
+        "medications": [],
+        "last_encounter": "2025-06-20T17:16:54.576708"
+      }
+    }
+  ]
+}

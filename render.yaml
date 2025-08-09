@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: acp-healthcare-system
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main_system.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.8
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DEBUG
+        value: false

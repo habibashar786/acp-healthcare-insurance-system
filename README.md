@@ -49,14 +49,6 @@ python -m pytest tests/ -v
 python -m pytest tests/ --cov=. --cov-report=html
 ```
 
-## Default Admin Account
-
-- **Username**: admin
-- **Password**: Admin@123456
-- **Email**: admin@acp-health.com
-
-WARNING: Change the default admin password in production!
-
 ## System Features
 
 - **User Management**: Registration, authentication, role-based access
